@@ -23,19 +23,19 @@ repository               : "parnashree-math/parnashree-math.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "pg_profile.png"
+  name             : "Parnashree Ghosh"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "INSPIRE Faculty Fellow"
+  location         : "Bangalore"
+  employer         : "Indian Institute of Science"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "ghoshparnashree@gmail.com" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=4AciLHEAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/yourorcidurl"

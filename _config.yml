@@ -23,7 +23,7 @@ repository               : "parnashree-math/parnashree-math.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "pg_profile.png"
+  avatar           : "pg_profile.jpg"
   name             : "Parnashree Ghosh"
   pronouns         : # example: "she/her"  
   bio              : "INSPIRE Faculty Fellow"

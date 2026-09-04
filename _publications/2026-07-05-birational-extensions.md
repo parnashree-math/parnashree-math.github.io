@@ -1,5 +1,5 @@
 ---
-title: "On \\(\mathbb{A}^1\\)-contractibility of certain simple birational extensions of affine spaces"
+title: 'On \\(\mathbb{A}^1\\)-contractibility of certain simple birational extensions of affine spaces'
 collection: publications
 category: preprints
 date: 2026-07-05

@@ -11,10 +11,12 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Mathematics, Indian Statistical Institute, Kolkata, 2024.
+  * Thesis: _Applications of Exponential Maps to Epimorphism and Cancellation Problems_, Supervisor: Prof. Neena Gupta.
+* M.Sc. in Mathematics, Indian Institute of Technology, Kharagpur, 2018.
+* B.Sc. in Mathematics, Jadavpur University, 2016.
 
+<!--
 Work experience
 ======
 * Spring 2024: Academic Pages Collaborator
@@ -40,6 +42,7 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
+-->
 
 Publications
 ======
@@ -58,7 +61,9 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+<!--
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+-->

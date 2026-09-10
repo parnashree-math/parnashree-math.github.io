@@ -46,6 +46,7 @@ Awards and honours
 * Indubhushan Putatunda and Shantishudha Putatunda Memorial Award, Jadavpur University, 2015
 * Sri Supriya Basu Memorial Scholarship, Jadavpur University, 2015
 * DST-INSPIRE SHE Scholarship, 2013–2018
+
 <!--
 Work experience
 ======

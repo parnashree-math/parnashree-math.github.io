@@ -1,10 +1,10 @@
 ---
-title: 'Characterization and Non-cancellation property of Danielewski type varieties'
+title: 'On characterization of Double Danielewski type algebras'
 collection: publications
-category: preprints
+category: journals
 date: 2026-07-01
-venue: 'ArXiv'
+venue: 'Journal of Algebra and Its Applications'
 paperurl: 'https://arxiv.org/abs/2403.02876'
-citation: 'P. Ghosh and D. Mondal (2026). &quot;Characterization and non-cancellation property of Danielewski-type varieties.&quot; <i>ArXiv preprint 2403.02876</i>.'
+citation: 'P. Ghosh and D. Mondal (2026). &quot;On characterization of Double Danielewski type algebras.&quot; <i>Journal of Algebra and Its Applications</i>.'
 ---
 

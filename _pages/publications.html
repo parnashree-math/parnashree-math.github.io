@@ -11,26 +11,33 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+{% assign publications_by_year = site.publications | reverse | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+<!-- Keep years in descending order and allow individual papers to appear last within their year. -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
+    {% for year in publications_by_year %}
+      {% assign category_posts = year.items | where: "category", category[0] %}
+      {% assign regular_posts = category_posts | where_exp: "post", "post.last_in_year != true" %}
+      {% assign last_posts = category_posts | where: "last_in_year", true %}
+      {% assign ordered_posts = regular_posts | concat: last_posts %}
+      {% for post in ordered_posts %}
+        {% unless title_shown %}
+          <h2>{{ category[1].title }}</h2><hr />
+          {% assign title_shown = true %}
+        {% endunless %}
+        {% include archive-single.html %}
+      {% endfor %}
     {% endfor %}
   {% endfor %}
 {% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+  {% for year in publications_by_year %}
+    {% assign regular_posts = year.items | where_exp: "post", "post.last_in_year != true" %}
+    {% assign last_posts = year.items | where: "last_in_year", true %}
+    {% assign ordered_posts = regular_posts | concat: last_posts %}
+    {% for post in ordered_posts %}
+      {% include archive-single.html %}
+    {% endfor %}
   {% endfor %}
 {% endif %}
-
-
-

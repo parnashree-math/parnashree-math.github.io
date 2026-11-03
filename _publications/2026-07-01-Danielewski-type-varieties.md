@@ -2,6 +2,7 @@
 title: 'On characterization of Double Danielewski type algebras'
 collection: publications
 category: journals
+last_in_year: true
 date: 2026-07-01
 venue: 'Journal of Algebra and Its Applications'
 paperurl: 'https://arxiv.org/abs/2403.02876'
